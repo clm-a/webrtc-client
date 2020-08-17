@@ -1,0 +1,65 @@
+html{
+  font-family: sans-serif;  
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:10px;
+}
+p{
+  margin: 10px 0;
+}
+section{
+  display:flex;
+  flex-direction: column;
+  background-color: lightblue;
+  max-width: 800px;
+  width:100%;
+  
+  padding: 10px 10px;
+  margin: 10px 10px ;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  box-shadow: 3px 3px 3px #eee ;
+
+}
+.container.jokkmokk section{
+  background-color: lightsteelblue;
+}
+button:not(:disabled){
+  background-color: orange;
+
+}
+button{
+  border:none;
+  color:white;
+  padding:10px;
+  border-radius: 10px;
+  margin: 5px 0;
+}
+button:hover:not(:disabled){
+  background-color: darkorange;
+  cursor: pointer;
+}
+textarea{
+  width:100%;
+  height:150px;
+  border: none;
+  background-color: #fefefe;
+  padding:6px;
+  border-radius: 8px;
+}
+.orange{
+  color: orange;
+}
+.red{
+  color: red;
+}
+.green{
+  color: green;
+}
+.gray{
+  color: #999;
+}
