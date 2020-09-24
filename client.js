@@ -32,8 +32,8 @@ function connect(){
 function setupRTCConnection(){
   const connection = new RTCPeerConnection({
     "iceServers": [
-      { "url": "stun:coturn.aerodigitale.fr" },
-      { url: 'turn:coturn.aerodigitale.fr?transport=tcp',
+      { "url": "stun:130.211.21.112" },
+      { url: 'turn:130.211.21.112?transport=tcp',
         username: 'guest',
         credential: 'password',
       }
