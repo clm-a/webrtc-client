@@ -1,4 +1,4 @@
-const signalingEndpoint = "wss://https://signaling-uotyryzmpq-ew.a.run.app/ws"
+const signalingEndpoint = "wss://signaling-uotyryzmpq-ew.a.run.app/ws"
 
 document.addEventListener("DOMContentLoaded", (e) => {
   const roomInput = document.getElementById("room")
