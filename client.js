@@ -1,4 +1,4 @@
-const signalingEndpoint = "wss://webrtc-signaling-demo.aerodigitale.fr:4040/ws"
+const signalingEndpoint = "wss://https://signaling-uotyryzmpq-ew.a.run.app/ws"
 
 document.addEventListener("DOMContentLoaded", (e) => {
   const roomInput = document.getElementById("room")
